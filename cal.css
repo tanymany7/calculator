@@ -1,0 +1,29 @@
+#topheading{
+    text-align: center;
+    font-size: 60px;
+}
+html{
+    background-color: #ffb366;
+}
+
+#keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for buttons */
+    gap: 10px; /* Space between buttons */
+}
+#zero {
+    grid-column: 2 / 3; /* Places the button below the center column */
+}
+#equal{
+    grid-column : 2 / 3;
+    font-size: 40px;
+}
+.numbers{
+    height: 90px;
+}
+button{
+    cursor: pointer;
+}
+#input{
+    text-align: center;
+}
